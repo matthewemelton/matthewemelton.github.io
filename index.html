@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Matthew Melton</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap-4.4.1.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ramaraja&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+	
+  <body>
+	<section class="section" data-section-name="page-1">
+  		<div class="container-fluid titleDiv" id="Landing">
+    		<div class="titleText">
+      			<h1 class="defaultTitleText">My name is <span class="nameText">Matthew Melton</span></h1>
+      			<h1 class="defaultTitleText" style="font-size: 30px;">and I am a <span id="text1"></span><span id="text2"></span></h1>
+    		</div>
+		</div>
+  		<div class="container-fluid Bouncing-Arrow bounce">
+			<img id="arrow-img" src="Assets/Down-Arrow.png" alt="Down-Arrow.png"/>
+		</div>
+	</section>
+	<section class="section" data-section-name="page-2">
+      	<div class= "container-fluid" id="about-horizontal-container">
+			<div id="about-header">
+				<h1 class="about-header-text">A Little About Me</h1>
+				<p class="about-body-text">My name is Matthew and I am a Senior at the University of Kentucky. My passion for technology
+					andsoftware started when I was a kid, however it really didn't take flight until my college years. Since then I have been
+					able to gain experience in the professional career field, be a part of an inde game development team, and tackle
+					some Web Development projects as well!</p>
+			</div>
+			<div class="experience-container">
+				<div id="experience-section-header">
+					<h1 id="experience-header-text">My Experience</h1>
+				</div>
+			</div>
+			<div id="experience-card-container">
+				<div class="row" style="max-width: 60%; text-align: left;">
+					<div class="column experience-card-title-box">
+						<h1 class="experience-card-header-text">Tech Dev. Co-op</h1>
+						<p class="experience-card-date-text">Media America Corp.</p>
+						<p class="experience-card-date-text">(May 2021 - August 2021)</p>
+					</div>
+					<div class="column experience-card-body">
+						<p class="experience-card-body-text">-Developed <span style="color: #ff2e00">high-level control code </span>for prototype control systems in various environments.<br>
+						-Developed <span style="color: #ff2e00">Graphical User Interfaces</span> from the ground up to interface with control devices.<br>
+						-Participated in <span style="color: #ff2e00">development teams</span> for new prototype <span style="color: #ff2e00; ">inventions and implementation.</span></p>
+					</div>
+				</div>
+				<div class="row" style="max-width: 60%; text-align: left; padding-top: 20px;">
+					<div class="column experience-card-title-box">
+						<h1 class="experience-card-header-text">IT Support Staff</h1>
+						<p class="experience-card-date-text">Whitefield Academy<br>Highview Baptist Church</p>
+						<p class="experience-card-date-text">(May 2017 - August 2021)</p>
+					</div>
+					<div class="column experience-card-body">
+						<p class="experience-card-body-text">-Developed and implemented a self-service kiosk system with orginization wide connectivity<br>
+							-Managed a help desk platform to problem solve and troubleshoot client technology issues. <br>
+							-Operated under management to monitor and maintain a G-suite directory as well <br> as an active directory hosted internally.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="ScrollPage.js" async></script>
+	<script type="text/javascript" src="BlurAnimateText.js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
+			integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+	></script>
+	<script src="Scrollify.js"></script>
+	<script src="About-Page-Animation.js"></script>
+	  
+	<!-- Load React. -->
+  	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  	<!-- Load our React component. -->
+  </body>
+</html>
