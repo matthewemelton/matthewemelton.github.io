@@ -26,13 +26,14 @@
 		</div>
 	</section>
 	<section class="section" data-section-name="About">
-      	<div class= "container-fluid" id="about-horizontal-container">
+      	<div id="about-horizontal-container">
 			<div id="about-header">
 				<h1 class="about-header-text">A Little About Me</h1>
 				<p class="about-body-text">My name is Matthew and I am a Senior at the University of Kentucky. My passion for technology
 					and software started when I was a kid, however, it really didn't take flight until my college years. Since then, I have been
 					able to gain experience in the professional career field, be a part of an indie game development team, and tackle
 					some Web Development projects as well!</p>
+				<p class="about-body-text">Check out <a class="resume-button" href="Assets/Resume 2022.pdf">my Resume!</a></p>
 			</div>
 			<div class="experience-container">
 				<div id="experience-section-header">
@@ -40,7 +41,7 @@
 				</div>
 			</div>
 			<div id="experience-card-container">
-				<div class="row" style="max-width: 60%; text-align: left; padding-top: 1%; padding-bottom: 1%">
+				<div class="row experience-parent-container">
 					<div class="column experience-card-title-box">
 						<h1 class="experience-card-header-text">Indie Game<br> Developer</h1>
 						<p class="experience-card-date-text">Spell Tale</p>
@@ -54,7 +55,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="row" style="max-width: 60%; text-align: left; padding-top: 1%; padding-bottom: 1%">
+				<div class="row experience-parent-container">
 					<div class="column experience-card-title-box">
 						<h1 class="experience-card-header-text">Freelance<br> Web Developer</h1>
 						<p class="experience-card-date-text">(May 2022 - present)</p>
@@ -69,7 +70,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="row" style="max-width: 60%; text-align: left;">
+				<div class="row experience-parent-container">
 					<div class="column experience-card-title-box">
 						<h1 class="experience-card-header-text">Tech Dev. Co-op</h1>
 						<p class="experience-card-date-text">Media America Corp.</p>
@@ -88,7 +89,7 @@
 	</section>
 	
 	<script type="text/javascript" src="ScrollPage.js" async></script>
-	<script type="text/javascript" src="BlurAnimateText.js" async></script>
+	<script type="text/javascript" src="Scripts/BlurAnimateText.js" async></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
@@ -96,13 +97,14 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 	></script>
-	<script src="Scrollify.js"></script>
-	<script src="About-Page-Animation.js"></script>
+	<script src="Scripts/Scrollify.js"></script>
+	<script src="Scripts/About-Page-Animation.js"></script>
 	  
 	<!-- Load React. -->
   	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
   	<!-- Load our React component. -->
   </body>

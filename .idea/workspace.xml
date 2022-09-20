@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90d501-bcb4-4f71-ae0b-884e223ff12d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Resume 2022.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About-Page-Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/About-Page-Animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlurAnimateText.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/BlurAnimateText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrollify.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Scrollify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/like_button.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/like_button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +30,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EAdoNOPdwXw6ic3Bn7iRyQM3NR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/matthew/Documents/GitHub/matthewmelton.github.io",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/matthew/Documents/GitHub/matthewmelton.github.io&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assets" />
+      <recent name="$PROJECT_DIR$/Scripts" />
+      <recent name="$PROJECT_DIR$/Components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +68,10 @@
       <workItem from="1662571592073" duration="1346000" />
       <workItem from="1662653940137" duration="602000" />
       <workItem from="1662737856064" duration="598000" />
-      <workItem from="1663081078724" duration="2441000" />
+      <workItem from="1663081078724" duration="2987000" />
+      <workItem from="1663187446037" duration="429000" />
+      <workItem from="1663275408998" duration="22000" />
+      <workItem from="1663629050639" duration="2831000" />
     </task>
     <servers />
   </component>
