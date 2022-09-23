@@ -8,7 +8,6 @@
     color: #EE1B29;
 }
 
-
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -20,7 +19,7 @@ p{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    color: #201E1F;
+    color: #FFFFFF;
 }
 
 h1.defaultTitleText{
@@ -216,15 +215,6 @@ div.About-Container{
 }
 /*-------------------*/
 
-/* Projects Page */
-
-#Project-Page-Header-Container{
-    color: #FFFFFF;
-}
-
-/*-------------------*/
-
-
 .bounce{
     animation: bounce 2s infinite;
 }
@@ -251,7 +241,89 @@ div.About-Container{
     }
 }
 
+/* Projects Page */
+div.project-card-container{
+    padding: 5%;
+}
 
+div.project-card{
+    min-width: 25vw;
+    min-height: 30vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
+    transition: 0.3s;
+}
+
+#Church-Admin-Card{
+    background: -webkit-linear-gradient(135deg, #9bafd9, #103783);
+}
+
+#Project-Header-Container{
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+    background-image:
+            linear-gradient(to top right, transparent 50%, black 0),
+            linear-gradient(to bottom right, black 50%, transparent 0);
+    background-size: 50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+}
+
+#Project-Header{
+    margin: auto;
+    color: white;
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 1px 0px 2px #EE1B29;
+}
+
+.project-skill-container{
+    width: 90vw;
+    height: 70%;
+    margin: 4% auto auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#skill-section-left{
+    height: 100%;
+    text-align: center;
+    background-color: #EE1B29;
+    border-radius: 10px;
+}
+
+#skill-section-middle{
+    height: 100%;
+    text-align: center;
+    background-color: #EE1B29;
+    border-radius: 10px;
+}
+
+#skill-section-right{
+    height: 100%;
+    text-align: center;
+    background-color: #EE1B29;
+    border-radius: 10px;
+}
+.skill-icon{
+    padding: 6%;
+    max-width: 125px;
+}
+
+.skill-header{
+    color: white;
+    font-size: larger;
+    border-bottom: solid 1px white;
+    width: 80%;
+    padding-bottom: 10px;
+    margin: 2% auto;
+}
+/*---------------*/
 #text1,
 #text2 {
     position: absolute;
