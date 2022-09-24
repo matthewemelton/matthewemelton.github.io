@@ -20,7 +20,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
 $(document).ready(function(){
 	if($(window).width <= 768) {
-		$.scrollify.disable();
+		//$.scrollify.disable();
 	}
 		$.scrollify({
 			section: ".section",
