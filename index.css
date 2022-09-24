@@ -318,6 +318,10 @@ div.project-card{
     background-color: #EE1B29;
     border-radius: 10px;
 }
+#spacer{
+    height: 0;
+    background-color: black;
+}
 .skill-icon{
     padding: 6%;
     max-width: 125px;
@@ -347,12 +351,24 @@ div.project-card{
     .experience-card-title-box{
         border: none;
     }
+    #experience-card-container{
+        padding-bottom: 300px;
+    }
     .titleText{
         position: absolute;
         bottom: 35vh;
     }
     .defaultTitleText, .nameText{
         font-size: 34px;
+    }
+    #skill-section-left, #skill-section-middle, #skill-section-right{
+        height: 80vh;
+        width: 75vw;
+        margin: 5vh auto 5vh auto;
+    }
+    #spacer{
+        width: 100vw;
+        height: 15%;
     }
 }
 
@@ -364,4 +380,5 @@ div.project-card{
     #about-header{
         max-width: 99%;
     }
+
 }
