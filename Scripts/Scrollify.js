@@ -19,22 +19,28 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
 $(document).ready(function(){
-	$.scrollify({
-		section : ".section",
-		sectionName : "section-name",
-		interstitialSection : "",
-		easing: "easeOutExpo",
-		scrollSpeed: 700,
-		offset : 0,
-		scrollbars: true,
-		//standardScrollElements: "",
-		setHeights: true,
-		overflowScroll: true,
-		updateHash: true,
-		touchScroll:true,
-		before:function() {},
-		after:function() {},
-		afterResize:function() {},
-		afterRender:function() {}
-	});
+	if($(document).width > 768) {
+		$.scrollify({
+			section: ".section",
+			sectionName: "section-name",
+			interstitialSection: "",
+			easing: "easeOutExpo",
+			scrollSpeed: 700,
+			offset: 0,
+			scrollbars: true,
+			//standardScrollElements: "",
+			setHeights: true,
+			overflowScroll: true,
+			updateHash: true,
+			touchScroll: true,
+			before: function () {
+			},
+			after: function () {
+			},
+			afterResize: function () {
+			},
+			afterRender: function () {
+			}
+		});
+	}
 });
