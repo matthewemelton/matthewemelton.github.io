@@ -356,6 +356,11 @@ div.project-card{
     font-size: x-small;
     color: rgba(255, 255, 255, 0.4);
 }
+
+.Home-Screen{
+    height: 100vh;
+    width: 100vw;
+}
 /*---------------*/
 #text1,
 #text2 {
