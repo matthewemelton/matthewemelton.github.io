@@ -86,7 +86,7 @@ div.Bouncing-Arrow{
 div.About-Container{
     position: fixed;
     padding-top: 200px;
-    width: 100%;
+    width: 100vw;
 }
 
 #about-horizontal-container{
@@ -128,13 +128,14 @@ div.About-Container{
 #experience-card-container{
     padding-top: 5px;
     padding-left: 8%;
+    width: 100vw;
 }
 
 .experience-parent-container{
-    width: fit-content;
     text-align: left;
     padding-top: 1%;
-    padding-bottom: 1%
+    padding-bottom: 1%;
+    width: 98%;
 }
 
 .experience-card-title-box{
@@ -174,6 +175,7 @@ div.About-Container{
     color: #FFFFFF;
     padding: 0px;
     font-size: small;
+    width: 80vw;
 }
 
 .experience-card-body-text:hover,
