@@ -65,7 +65,7 @@ div.titleDiv{
 div.titleText{
     display: table;
     margin: 20% auto;
-    width: 100%;
+    width: 100vw;
 }
 
 div.myWorkDiv{
