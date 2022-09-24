@@ -24,7 +24,7 @@ h1{
     font-size: 40px;
 }
 
-p{
+p, a{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -304,6 +304,7 @@ div.project-card{
     text-align: center;
     background-color: #EE1B29;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #skill-section-middle{
@@ -311,6 +312,7 @@ div.project-card{
     text-align: center;
     background-color: #EE1B29;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #skill-section-right{
@@ -318,6 +320,7 @@ div.project-card{
     text-align: center;
     background-color: #EE1B29;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #spacer{
     height: 0;
@@ -335,6 +338,23 @@ div.project-card{
     width: 80%;
     padding-bottom: 10px;
     margin: 2% auto;
+}
+
+.footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #171a1d;
+    margin-top: 20vh;
+}
+
+.credit-container{
+    padding: 20px 0 0 20px;
+    margin: auto;
+}
+
+.credit-link{
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.4);
 }
 /*---------------*/
 #text1,
