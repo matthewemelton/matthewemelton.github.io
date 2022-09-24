@@ -12,9 +12,10 @@
     font-weight: 400;
     font-style: italic;
     font-size: 30px;
-    text-shadow: -1px 0px #FBC6CA;
+    text-shadow: -1px 0 #FBC6CA;
     color: #EE1B29;
 }
+
 
 h1{
     font-family: 'Raleway', sans-serif;
@@ -135,7 +136,7 @@ div.About-Container{
     text-align: left;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 98%;
+    width: fit-content;
 }
 
 .experience-card-title-box{
@@ -145,7 +146,6 @@ div.About-Container{
     border-left: none;
     border-top: none;
     border-bottom: none;
-    border-right: 4px, #FFFFFF;
     vertical-align: middle;
 }
 
@@ -175,7 +175,6 @@ div.About-Container{
     color: #FFFFFF;
     padding: 0px;
     font-size: small;
-    width: 80vw;
 }
 
 .experience-card-body-text:hover,
@@ -371,6 +370,12 @@ div.project-card{
     #spacer{
         width: 100vw;
         height: 15%;
+    }
+    .experience-parent-container{
+        width: 95vw;
+    }
+    #experience-section-header{
+        width: 80vw;
     }
 }
 
