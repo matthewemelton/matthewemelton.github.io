@@ -19,22 +19,19 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
 $(document).ready(function(){
-	if($(window).width <= 768){
-		$.scrollify.disable();
-	}
 		$.scrollify({
 			section: ".section",
 			sectionName: "section-name",
 			interstitialSection: "",
 			easing: "easeOutExpo",
-			scrollSpeed: 700,
+			scrollSpeed: 600,
 			offset: 0,
 			scrollbars: true,
 			//standardScrollElements: "",
 			setHeights: true,
 			overflowScroll: true,
 			updateHash: true,
-			touchScroll: true,
+			touchScroll: false,
 			before: function () {
 			},
 			after: function () {
