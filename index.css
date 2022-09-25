@@ -65,7 +65,6 @@ div.titleDiv{
 div.titleText{
     display: table;
     margin: 20% auto;
-    width: 95vw;
 }
 
 div.myWorkDiv{
@@ -402,6 +401,9 @@ div.project-card{
     }
     #experience-section-header{
         width: 80vw;
+    }
+    .titleText{
+        width: 95vw;
     }
 }
 
