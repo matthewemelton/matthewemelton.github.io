@@ -177,13 +177,6 @@ div.About-Container{
     font-size: small;
 }
 
-.experience-card-body-text:hover,
-.experience-card-body-text:hover:after,
-.experience-card-body-text:hover:before,
-.experience-card-body-text:hover i,
-.experience-card-body-text:hover span {
-    border-color:red !important
-}
 
 #skill-section-header{
     color: #FFFFFF;
@@ -251,21 +244,7 @@ div.About-Container{
 }
 
 /* Projects Page */
-div.project-card-container{
-    padding: 5%;
-}
 
-div.project-card{
-    min-width: 25vw;
-    min-height: 30vh;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
-    transition: 0.3s;
-}
-
-#Church-Admin-Card{
-    background: -webkit-linear-gradient(135deg, #9bafd9, #103783);
-}
 
 #Project-Header-Container{
     text-align: center;
@@ -361,7 +340,73 @@ div.project-card{
     height: 100vh;
     width: 100vw;
 }
-/*---------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------- My Work Section -----------------------------------------------*/
+.work-header-container{
+    margin-top: 15%;
+    width: 100vw;
+    text-align: center;
+}
+
+.work-header{
+    margin: 0 auto;
+}
+
+div.project-card-container{
+    padding: 5%;
+}
+
+div.project-card{
+    min-height: 30vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
+    transition: 0.3s;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card-button-container{
+    text-align: right;
+    width: 100%;
+    background-color: #545b62;
+}
+
+.link-button{
+    margin-top: 15px;
+    border: white solid 2px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("Assets/tab.png");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    transition: background-color;
+    transition-duration: 0.2s;
+}
+
+.link-button:hover{
+    background-color: white;
+}
+
+
+#project-button{
+}
+#Church-Admin-Card{
+    background: -webkit-linear-gradient(135deg, #9bafd9, #103783);
+}
+
+#Church-Admin-Logo{
+    color: white;
+    max-width: 85%;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+/*-----------------------------------------------------------------------------------------------------------*/
 #text1,
 #text2 {
     position: absolute;
