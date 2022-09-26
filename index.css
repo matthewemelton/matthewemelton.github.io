@@ -321,14 +321,15 @@ div.About-Container{
 
 .footer{
     width: 100vw;
-    height: 15vh;
+    height: fit-content;
     background-color: #171a1d;
     margin-top: 20vh;
 }
 
 .credit-container{
-    padding: 20px 0 0 20px;
+    padding: 10px 0 0 10px;
     margin: auto;
+    height: fit-content;
 }
 
 .credit-link{
@@ -355,10 +356,11 @@ div.About-Container{
 
 div.project-card-container{
     padding: 5%;
+    max-width: 100vw;
+    margin: 0 auto;
 }
 
 div.project-card{
-    max-width: 100vw;
     min-height: 30vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
