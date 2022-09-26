@@ -358,6 +358,7 @@ div.project-card-container{
 }
 
 div.project-card{
+    max-width: 100vw;
     min-height: 30vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
